@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+        # Build the project from folder named app and build app
+        gradle:
+                
+                build: .
+
+                volumes:
+                - ./jar:/app/build/libs/
+
+                working_dir: /app
+
+                command: gradle build
+
