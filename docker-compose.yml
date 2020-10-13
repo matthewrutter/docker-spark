@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+        # Build the project from folder named app and build app
+        server:
+            
+            # Build the server with the dockerfile in the designated folder
+            build: ./server
+
+            # Set the port to the default port for Java Spark Framework as outlined in documentation
+            ports: 
+                - 4567:4567
+
+
+
