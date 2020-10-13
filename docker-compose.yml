@@ -1,7 +1,7 @@
 version: '3'
 services:
 
-        # Build the project from folder named app and build app
+        # Build the server from build folder
         server:
             
             # Build the server with the dockerfile in the designated folder

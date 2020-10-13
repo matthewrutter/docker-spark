@@ -24,12 +24,6 @@ repositories
 
 dependencies
 {
-// junit files for testing located in the lib directory
-
-	// testImplementation fileTree(dir: 'lib', include:
-	// ['*.jar'])
-
-
 // java spark framework dependencies
 
 	// https://mvnrepository.com/artifact/com.sparkjava/spark-core
