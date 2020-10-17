@@ -1,7 +1,7 @@
 #BUILD
 #USE GRADLE TO BUILD APP IN DEV DIR IN CONTAINER
 FROM gradle AS build
-COPY . /app/
+COPY ./example-project/ /app/
 WORKDIR /app
 RUN gradle build
 
